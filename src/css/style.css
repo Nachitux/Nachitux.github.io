@@ -37,6 +37,10 @@ p, h3 {
     width: 25%;
 }
 
+#centered h3:hover {
+  transform: translate(0%, -2%) scale(1.2);
+}
+
 #centered h3
 
 {
