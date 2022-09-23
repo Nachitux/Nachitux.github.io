@@ -144,6 +144,17 @@ p, h3 {
         font-size: 0.6em !important;
         text-align: center !important;
     }
+
+    #centered h3 {
+      margin: auto;
+      text-align: center;
+      background-repeat : no-repeat;
+      
+    
+      font-size: 4em;
+      width: 40%;
+    
+    }
     
 }
 
@@ -156,6 +167,8 @@ p, h3 {
     margin-top: 5px;
     font-size: 2rem;
 }
+
+
 
 
 @media only screen and (max-width: 600px) {

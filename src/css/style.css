@@ -143,6 +143,17 @@ p, h3 {
         font-size: 0.6em !important;
         text-align: center !important;
     }
+
+    #centered h3 {
+      margin: auto;
+      text-align: center;
+      background-repeat : no-repeat;
+      
+    
+      font-size: 4em;
+      width: 40%;
+    
+    }
     
 }
 
