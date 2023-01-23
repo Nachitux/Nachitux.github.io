@@ -29,6 +29,22 @@ button{
     color: white;
 }
 
+button:hover {
+    animation-delay: 3s;
+    transform: translate(0%, -2%) scale(1.3);
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 1.2s;
+  }
+
+  button:hover:before {
+    animation-delay: 3s;
+    transform: translate(0%, -2%) scale(1.3);
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 1.2s;
+  }
+
 @media screen and (max-width:630px){
     h1{        
         font-size: 16px;        
