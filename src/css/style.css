@@ -39,6 +39,7 @@ p, h3 {
 
 #centered h3:hover {
   transform: translate(0%, -2%) scale(1.2);
+  transition: all 1.2s;
 }
 
 #centered h3
@@ -83,6 +84,7 @@ p, h3 {
         -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
         -webkit-mask-size: 200%;
         animation: shine 3s infinite;
+        transition: all 1.2s;
       }
       
       @-webkit-keyframes shine {
@@ -168,18 +170,18 @@ p, h3 {
 }
 
 
-
-
 @media screen and (min-width: 100px) and (max-width:1600px){
   #centered h3 {
-      
-    
-      
-    
-    font-size: 60px;
+  font-size: 60px;
     width: 100%;
-}
-}
+  }
+    #centered p {
+      margin: auto;
+      margin-top: 5%;
+      text-align: center;
+  
+      font-size: 1.5rem;
+  }
 
-
+}
 
